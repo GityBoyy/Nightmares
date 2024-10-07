@@ -1,0 +1,21 @@
+/execute in minecraft:the_nether run tp @s 100 50 100
+/execute in nightmares:nightmare_stem run tp @s 100 50 100
+/execute in minecraft:the_nether run tp @s 100 50 100
+/give @p minecraft:nether_sprouts
+/gamerule playersNetherPortalCreativeDelay 1
+/gamerule playersNetherPortalCreativeDelay 0
+/locate structure minecraft:village_plains
+/tp @s -320 ~ 2384
+/time set day
+/get_sanity
+/time set night
+/get_sanity
+/list uuids
+/get_sanity
+/time set day
+/get_sanity
+/time set night
+/get_sanity
+/gamerule keepInventory true
+/kill
+/get_sanity
