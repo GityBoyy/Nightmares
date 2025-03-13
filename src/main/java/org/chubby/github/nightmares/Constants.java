@@ -6,5 +6,5 @@ import org.slf4j.Logger;
 public class Constants
 {
     public static final String MODID = "nightmares";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 }
